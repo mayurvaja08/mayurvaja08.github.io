@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts (example – adjust if needed) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS will be added later -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<!-- <header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">LOGO</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header> -->
+
+<!-- HEADER (same header jo tum already use kar rahe ho) -->
+  <header class="header">
+    <div class="container">
+      <h2 class="logo">PORTFOLIO</h2>
+      <nav>
+        <a href="index.html"  class="active">Home</a>
+        <a href="./projects-page/index.html">Projects</a>
+        <a href="./projects-page/about.html">About</a>
+        <a href="./projects-page/skills.html">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="container hero-top">
+    <h1 class="hero-title">
+      MAYUR<br>
+      <span>VAJA</span>
+    </h1>
+
+    <div class="hero-right">
+      <h2 class="hero-tagline"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        Designing the future of digital experiences.       
+
+      </h2>
+
+      <div class="hero-actions">
+           <!-- <a href="cv.pdf">Download CV</a> -->
+
+        <a href="cv.pdf" class="btn primary">DOWNLOAD CV</a>
+        <a href="./projects-page/about.html" class="btn outline">ABOUT ME</a>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container hero-top">
+  <h1 class="hero-title">
+    <span class="hero-small">CREATIVE</span>
+    <span class="hero-big">PORTFOLIO</span>
+  </h1>
+
+  <div class="hero-right">
+    <h2 class="hero-tagline">
+      Designing the future of digital experiences.
+    </h2>
+
+    <div class="hero-actions">
+      <a href="#" class="btn primary">DOWNLOAD CV</a>
+      <a href="#about" class="btn outline">ABOUT ME</a>
+    </div>
+  </div>
+</div> -->
+
+
+  <div class="hero-image-wrap">
+    <div class="hero-overlay"></div>
+    <img src="portfolio image.jpg" alt="Profile Image" class="hero-image">
+
+    <div class="hero-badge">
+      <p class="badge-label">Current Status</p>
+      <p class="badge-text">
+        Available for new opportunities and collaborations.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<section class="marquee">
+  <div class="marquee-track">
+    <span>CREATIVE</span>
+    <span class="stroke">DEVELOPER</span>
+    <span>DESIGNER</span>
+    <span class="stroke">STRATEGIST</span>
+
+    <span>CREATIVE</span>
+    <span class="stroke">DEVELOPER</span>
+    <span>DESIGNER</span>
+    <span class="stroke">STRATEGIST</span>
+  </div>
+</section>
+
+<!-- ================= ABOUT / VISION ================= -->
+
+<section class="vision" id="about">
+  <div class="container vision-grid">
+
+    <div class="vision-left" id="vision-title">
+      <h2 class="vision-title">
+        THE<br><span>VISION</span>
+      </h2>
+      <div class="vision-line"></div>
+      <p class="vision-sub">
+        A glimpse into my professional journey and philosophy.
+      </p>
+    </div>
+
+    <div class="vision-right" id="vision-content">
+      <p class="vision-text">
+        I am Mayur Vaja, a passionate Full Stack Developer at the beginning of my professional journey, driven by curiosity, consistency, and a strong desire to build meaningful digital products.<br/><br/>
+As a fresher, I see my early stage not as a limitation, but as an opportunity to learn faster, adapt better, and grow stronger with every project I work on.<br/><br/>
+
+My vision is to design and develop digital experiences that are not only visually appealing, but also technically sound, scalable, and performance-driven.<br/><br/>
+I believe that great products are built when clean code, thoughtful UI/UX, and real-world problem solving come together seamlessly.<br/><br/>
+
+With hands-on experience in frontend technologies like HTML, CSS, JavaScript, React, and Flutter, along with backend tools such as Node.js, Firebase, PHP, and Python, I aim to bridge the gap between ideas and execution.<br/><br/>
+I enjoy working across the full stack, understanding how each layer of an application contributes to the overall user experience.<br/><br/>
+
+Problem-solving excites me. I enjoy breaking complex challenges into simple, logical solutions and continuously refining them for better efficiency and usability.<br/><br/>
+Whether working independently or as part of a team, I value collaboration, clear communication, and continuous improvement.<br/><br/>
+
+My long-term goal is to grow through multiple paths — contributing as a professional developer in a company, building products, freelancing with global clients, and eventually creating solutions that have real impact.<br/><br/>
+I am deeply motivated by learning new technologies and applying them to build real, usable products rather than just writing code for the sake of it.<br/><br/>
+
+I envision myself evolving into a developer who is known for reliability, adaptability, and a strong problem-solving mindset.<br/>
+Every project I take on is a step forward — toward mastery, innovation, and building technology that truly matters.
+      </p>
+
+      <div class="vision-cards">
+        <div class="card">
+          <h3>Full Stack Architecture</h3>
+          <p>
+            Building scalable applications from database to frontend.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>UI / UX Design</h3>
+          <p>
+            Designing intuitive and visually stunning interfaces.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
+  <div class="container">
+
+    <div class="projects-header">
+      <h2>
+        SELECTED<br><span>WORKS</span>
+      </h2>
+      <a href="./projects-page/index.html" class="projects-link">VIEW ALL ARCHIVE →</a>
+    </div>
+
+    <div class="projects-list">
+
+      <article class="project-row">
+        <div class="project-image">
+          <img src="project1.png" alt="">
+        </div>
+        <!-- <div class="project-content">
+          <span class="project-index">01</span>
+          <h3>Project Name One</h3>
+          <p>
+            Short project description goes here. This mimics
+            the React layout.
+          </p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node</span>
+            <span>UI</span>
+          </div>
+          <a href="#">EXPLORE CASE STUDY →</a>
+        </div> -->
+        <div class="project-content">
+  <span class="project-index">01</span><br/><br/><br/><br/>
+
+  <h3 class="project-title">Bike Management Showroom</h3>
+
+  <p class="project-desc">
+    A complete Bike Showroom Management platform with admin panel,
+    Firebase integration, live contest management, and lve test drive booking system.
+
+  </p>
+
+  <div class="project-tags">
+    <span>REACT</span>
+    <span>NODE.JS</span>
+    <span>Firebase</span>
+  </div>
+
+  <a href="https://mayurvaja08.github.io/velocity-motors/" class="project-link">
+    View Project →
+  </a>
+</div>
+
+      </article>
+
+      <article class="project-row reverse">
+        <div class="project-image">
+          <img src="project2.png" alt="">
+        </div>
+        <!-- <div class="project-content">
+          <span class="project-index">02</span>
+          <h3>Project Name Two</h3>
+          <p>
+            Another project description placeholder.
+          </p>
+          <div class="project-tags">
+            <span>Next.js</span>
+            <span>API</span>
+            <span>Design</span>
+          </div>
+          <a href="#">EXPLORE CASE STUDY →</a>
+        </div> -->
+        <div class="project-content">
+  <span class="project-index1">02</span>
+
+  <h3 class="project-title">Portfolio Generator</h3>
+
+  <p class="project-desc">
+    A website that generates portfolio code dynamically based on user inputs and theme selection.
+  </p>
+
+  <div class="project-tags">
+    <span>REACT</span>
+    <span>NODE.JS</span>
+    <span>Tailwind</span>
+  </div>
+
+  <a href="https://mayurvaja08.github.io/make-my-portfolio/" class="project-link">
+    View Project →
+  </a>
+</div>
+
+      </article>
+
+      <article class="project-row">
+        <div class="project-image">
+          <img src="project3.jpg" alt="">
+        </div>
+        <!-- <div class="project-content">
+          <span class="project-index">01</span>
+          <h3>Project Name One</h3>
+          <p>
+            Short project description goes here. This mimics
+            the React layout.
+          </p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node</span>
+            <span>UI</span>
+          </div>
+          <a href="#">EXPLORE CASE STUDY →</a>
+        </div> -->
+        <div class="project-content">
+  <span class="project-index">03</span><br/><br/><br/><br/>
+
+  <h3 class="project-title">Esports Tournament App</h3>
+
+  <p class="project-desc">
+    A complete esports tournament platform with admin panel, Firebase integration, and live contest management.
+  </p>
+
+  <div class="project-tags">
+    <span>Flutter</span>
+    <span>Firebase</span>
+    <span>React</span>
+  </div>
+
+  <a href="#" class="project-link">
+    Visit Project →
+  </a>
+</div>
+
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="skills" id="skills">
+  <div class="container">
+    <h2 class="center-title">TECHNICAL ARSENAL</h2>
+
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>C</span>
+      <span>C++</span>
+      <span>Python</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="skills-list">
+      <span>MongoDB</span>
+      <span>UI/UX</span>
+      <span>Git</span>
+      <span><a href="./projects-page/skills.html">View All →</a></span>
+    </div>
+  </div><br/><br/><br/><br/>
+
+<!-- ================= CTA ================= -->
+<section class="cta" id="contact">
+  <div class="cta-inner">
+    <h2>
+      LET'S BUILD<br>
+      SOMETHING<br>
+      LEGENDARY
+    </h2>
+
+    <p>
+      I'm currently available for freelance projects
+      and full-time opportunities.
+    </p>
+
+    <div class="cta-actions">
+      <a href="mailto:vaja2591@gmail.com" class="btn primary">
+        START A PROJECT
+      </a>
+      <a href="./projects-page/about.html" class="btn outline">
+        READ MY STORY
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<!-- <footer class="site-footer">
+  <p>© 2025 Your Name. All rights reserved.</p>
+</footer> -->
+
+<!-- JS later -->
+ <script src="main.js"></script>
+<script src="js/main.js"></script>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-col">
+      <h3 class="footer-logo">PORTFOLIO</h3>
+      <p class="footer-text">
+        Showcasing creative work and professional expertise through
+        innovative projects and solutions.
+      </p>
+    </div>
+
+    <!-- MIDDLE -->
+    <div class="footer-col">
+      <h4 class="footer-title">QUICK LINKS</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="./projects-page/index.html">Projects</a></li>
+        <li><a href="./projects-page/about.html">About</a></li>
+        <li><a href="./projects-page/skills.html">Skills</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-col">
+      <h4 class="footer-title">CONNECT</h4>
+      <div class="footer-socials">
+        <a href="#" aria-label="Email">✉️</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="GitHub">🐙</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Portfolio. Mayur Vaja.
+  </div>
+</footer>
+
+
+</body>
+</html>
